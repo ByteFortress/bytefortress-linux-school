@@ -71,7 +71,7 @@ sudo dpkg-reconfigure slapd     # initial configuration wizard
 ### Basic LDAP concepts
 
 - **DN (Distinguished Name)** — the unique path to an entry, e.g.
-  `uid=jacob,ou=people,dc=example,dc=lab`
+  `uid=blackcat,ou=people,dc=example,dc=lab`
 - **Entries** are organized in a tree, rooted at your domain
   (`dc=example,dc=lab` for `example.lab`)
 - **Object classes** define what attributes an entry can/must have
