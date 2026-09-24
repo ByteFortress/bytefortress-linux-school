@@ -73,14 +73,14 @@ every host:
 ```
 Host lab
     HostName 192.168.1.10
-    User jacob
+    User blackcat
     Port 2222
     IdentityFile ~/.ssh/id_ed25519
     ForwardX11 yes
 ```
 
 ```bash
-ssh lab    # equivalent to: ssh -p 2222 -i ~/.ssh/id_ed25519 -X jacob@192.168.1.10
+ssh lab    # equivalent to: ssh -p 2222 -i ~/.ssh/id_ed25519 -X blackcat@192.168.1.10
 ```
 
 `ForwardX11 yes` here means you never need to remember the `-X` flag
