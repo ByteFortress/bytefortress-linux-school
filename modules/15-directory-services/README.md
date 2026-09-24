@@ -80,15 +80,15 @@ sudo dpkg-reconfigure slapd     # initial configuration wizard
 ### Adding an entry (via LDIF)
 
 ```
-dn: uid=jacob,ou=people,dc=example,dc=lab
+dn: uid=blackcat,ou=people,dc=example,dc=lab
 objectClass: inetOrgPerson
 objectClass: posixAccount
-uid: jacob
-cn: Jacob
+uid: blackcat
+cn: Blackcat
 sn: Fortress
 uidNumber: 2001
 gidNumber: 2001
-homeDirectory: /home/jacob
+homeDirectory: /home/blackcat
 ```
 
 ```bash
@@ -98,7 +98,7 @@ ldapadd -x -D "cn=admin,dc=example,dc=lab" -W -f newuser.ldif
 ### Querying
 
 ```bash
-ldapsearch -x -b "dc=example,dc=lab" "(uid=jacob)"
+ldapsearch -x -b "dc=example,dc=lab" "(uid=blackcat)"
 ```
 
 ### Connecting clients to authenticate against LDAP
