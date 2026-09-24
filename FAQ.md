@@ -10,7 +10,7 @@ here.
 ## Why does this repo mention an old course of yours?
 
 This curriculum is being rebuilt from an older course I taught myself
-(*CS101: Linux System Administration*, originally ~2020). The module
+(*CS201: Linux System Administration*, originally ~2020). The module
 structure and lab philosophy come from real teaching experience — the
 content itself is being refreshed and expanded here as an open
 project, module by module.
