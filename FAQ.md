@@ -22,12 +22,6 @@ structure, a real hands-on lab, and a real external resource, but
 some are still getting fuller original explanations added. Contributions
 welcome — see `CONTRIBUTING.md`.
 
-## Is NIS (module 15) still worth learning?
-
-Not for production use — it's legacy and insecure by modern
-standards. The module covers it briefly for historical/conceptual
-context, then focuses on LDAP as the modern equivalent.
-
 ## What Linux distro should I use?
 
 Ubuntu Server 22.04 LTS is assumed throughout, matching
