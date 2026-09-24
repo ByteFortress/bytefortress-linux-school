@@ -137,9 +137,9 @@ resource limits via `/etc/security/limits.conf`:
 
 ```
 # <user/group>  <hard|soft>  <item>  <value>
-jacob            hard         cpu     2          # max 2 minutes of CPU time
-jacob            hard         nproc   50          # max 50 simultaneous processes
-jacob            hard         nofile  1024        # max 1024 open files
+blackcat            hard         cpu     2          # max 2 minutes of CPU time
+blackcat            hard         nproc   50          # max 50 simultaneous processes
+blackcat            hard         nofile  1024        # max 1024 open files
 ```
 
 A `soft` limit is the default a user's session starts with (they can
