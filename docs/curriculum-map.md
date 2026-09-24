@@ -25,18 +25,7 @@ project. Sequenced so each builds on the last.
 | 17 | Backups | Backup strategies, `rsync`, `tar`, testing restores | [restic docs](https://restic.net/) | 3-5 hrs |
 | 18 | Capstone Project | Design, build, and document a real sysadmin project drawing on prior modules | Your own build | 10-20+ hrs |
 
-**Total: roughly 85-125 hours** — meaningfully deeper than
-`bytefortress-foundations-school`, matching the original course's
-8-10 week pace.
-
-## A note on module 15 (Directory Services)
-
-The original course covered NIS (Network Information System) for
-centralized account management. NIS is legacy and considered insecure
-by modern standards (unencrypted, weak authentication). This module
-covers LDAP as the modern equivalent, with NIS discussed for
-historical/conceptual context only — not as a recommended technology
-to deploy.
+**Total: roughly 85-125 hours** 
 
 ## Sequencing logic
 
