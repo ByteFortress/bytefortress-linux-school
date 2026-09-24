@@ -113,8 +113,8 @@ sudo apt install autofs
 ```
 
 The `*` matches any subdirectory name under `/home`, and `&` in the
-source substitutes that matched name — so accessing `/home/jacob`
-automatically mounts `192.168.1.10:/home/jacob`, on demand, with no
+source substitutes that matched name — so accessing `/home/blackcat`
+automatically mounts `192.168.1.10:/home/blackcat`, on demand, with no
 explicit per-user fstab entry needed.
 
 ## Hands-on lab
