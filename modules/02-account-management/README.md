@@ -151,7 +151,7 @@ readable, maintainable rules across a team:
 Host_Alias   WEBSERVERS = web1, web2
 Cmnd_Alias   NETDEBUG = /usr/sbin/tcpdump, /usr/sbin/wireshark
 
-jacob   ALL=(root) ALL                  # full sudo, any host
+blackcat   ALL=(root) ALL                  # full sudo, any host
 bar     WEBSERVERS = NETDEBUG           # bar can only run those two commands, only on those hosts
 ```
 
