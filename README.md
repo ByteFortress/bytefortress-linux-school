@@ -13,7 +13,7 @@ you from "comfortable user" to "can actually administer a Linux
 server."
 
 > This repo grew out of an older course of mine
-> (*CS101: Linux System Administration*) that I'm rebuilding and
+> (*CS201: Linux System Administration*) that I'm rebuilding and
 > updating here. If you're seeing placeholder-style explanations in
 > a module, that's a module still being expanded with fuller original
 > content — the structure, labs, and external resources are solid
