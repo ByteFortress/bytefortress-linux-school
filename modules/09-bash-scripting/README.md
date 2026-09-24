@@ -17,12 +17,12 @@ Write real automation scripts: variables, conditionals, loops, and functions, mo
 ### Variables
 
 ```bash
-name="Jacob"
+name="Blackcat"
 echo "Hello, $name"
 readonly PI=3.14159       # constant
 ```
 
-No spaces around `=` in bash — `name = "Jacob"` is a syntax error,
+No spaces around `=` in bash — `name = "Blackcat"` is a syntax error,
 not an assignment.
 
 ### Conditionals
