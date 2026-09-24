@@ -79,7 +79,7 @@ a real person:
 
 ```bash
 cat /etc/aliases
-# root: jacob, jacob@example.lab
+# root: blackcat, blackcat@example.lab
 
 sudo newaliases    # rebuild the aliases database after editing — easy to forget
 ```
