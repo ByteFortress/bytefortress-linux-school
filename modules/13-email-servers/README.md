@@ -89,7 +89,7 @@ user's mail elsewhere without needing root access to `/etc/aliases`:
 
 ```bash
 cat ~/.forward
-# jacob@example.lab
+# blackcat@example.lab
 ```
 
 ### Filtering and automating mail delivery: procmail
